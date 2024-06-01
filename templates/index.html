@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analisis de sentimientos</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <!-- Añadir CSS local -->
+    <link rel="stylesheet" href="/static/styles.css" />
+
+    <!-- Añadir Bootstrap JS y dependencias desde CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Analysis de sentimiento</h1>
+        <div class="form-group">
+            <textarea class="form-control" id="textInput" rows="4" placeholder="Ingrese texto aqui..."></textarea>
+        </div>
+        <button id="analyzeButton" class="btn btn-primary btn-block">Analizar</button>
+        <div id="result" class="mt-4 text-center"></div>
+    </div>
+    <script src="/static/scripts.js"></script>
+</body>
+
+</html>
